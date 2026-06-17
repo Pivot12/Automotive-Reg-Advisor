@@ -1,0 +1,29 @@
+# SUPERSEDED by watch.yml — kept as a manual-only trigger to avoid two daily crons.
+# watch.yml runs scripts/refresh.mjs on a daily schedule and commits public/data/changes.json + data/snapshots.
+name: Regulatory watch (manual)
+
+on:
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - name: Run watch refresh
+        env:
+          JINA_API_KEY: ${{ secrets.JINA_API_KEY }}
+        run: node scripts/refresh.mjs
+      - name: Commit changes
+        run: |
+          git config user.name "auto-reg-bot"
+          git config user.email "actions@github.com"
+          git add public/data/changes.json data/snapshots
+          git commit -m "chore: regulatory watch refresh $(date -u +%Y-%m-%d)" || echo "No changes"
+          git push
