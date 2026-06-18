@@ -111,21 +111,41 @@ Default Cursor
 
 ![Image 16: Announcements](https://morth.gov.in/assets/images/announcement.png)
 
-![Image 17: pm-picture](https://morth.gov.in/backend/undefined)
+![Image 17: pm-picture](https://morth.gov.in/backend//documents/uploaded/pm.png)
 
-[![Image 18: View Event](https://morth.gov.in/assets/images/externalLink.svg) View Event](https://morth.gov.in/)
+Today, the focus on rural infrastructure in the country is greater than ever before. Most villages in the country are now connected to highways, expressways and railways.
+
+**Bharat Gramin Mahotsav** 04 JAN 2025 2:04PM 
+
+[![Image 18: View Event](https://morth.gov.in/assets/images/externalLink.svg) View Event](https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2090098&reg=3&lang=2)
 
 ## [![Image 19: icon](https://morth.gov.in/assets/images/ab.png) About Us](https://morth.gov.in/ministry)
 
-[object Object]
+An apex organisation under the Central Government, is entrusted with the task of formulating and administering, in consultation with other Central Ministries/Departments, State Governments/UT Administrations, organisations and individuals, policies for Road Transport, National Highways and Transport Research with a view to increasing the mobility and efficiency of the road transport system in the country. The Ministry has two wings: Roads wing and Transport wing
 
-![Image 20: Digital Personal Data](https://morth.gov.in/)
+![Image 20: Our Team](https://morth.gov.in/assets/images/ourteam.svg) Our Team
 
-![Image 21: Digital Personal Data](https://morth.gov.in/)
+![Image 21: Our Organisations](https://morth.gov.in/assets/images/organisations.svg)Our Organisation
 
-![Image 22: Digital Personal Data](https://morth.gov.in/)
+![Image 22: Shri Nitin Jairam Gadkari](https://morth.gov.in/backend/images/Nitin-Jairam-Gadkari.jpg)
 
-## ![Image 23: Key Offerings Icon](https://morth.gov.in/assets/images/keyOfferings.svg) Key Offerings
+Hon'ble Minister
+
+Shri Nitin Jairam Gadkari
+
+![Image 23: Shri Ajay Tamta](https://morth.gov.in/backend/images/Ajay-Tamta.jpg)
+
+Hon'ble Minister of State
+
+Shri Ajay Tamta
+
+![Image 24: Shri Harsh Malhotra](https://morth.gov.in/backend/images/Harsh-Malhotra.jpg)
+
+Hon'ble Minister of State
+
+Shri Harsh Malhotra
+
+## ![Image 25: Key Offerings Icon](https://morth.gov.in/assets/images/keyOfferings.svg) Key Offerings
 
 Schemes Vacancies Tenders
 
@@ -137,23 +157,39 @@ Schemes Vacancies Tenders
 
 [View More](https://morth.gov.in/#/offerings/schemes-and-services)
 
-## ![Image 24: What's New Icon](https://morth.gov.in/assets/images/whatsnew.svg) What's New
+## ![Image 26: What's New Icon](https://morth.gov.in/assets/images/whatsnew.svg) What's New
 
 [View More](https://morth.gov.in/#/whats-new)
 
-## ![Image 25: icon](https://morth.gov.in/assets/images/recentDocument.svg) Recent Documents
+## ![Image 27: icon](https://morth.gov.in/assets/images/recentDocument.svg) Recent Documents
+
+*   [Report](https://morth.gov.in/)
+Arbitral Award
+
+*   [Act and Policies](https://morth.gov.in/)
+Manner of Deposition Rules, 2019
 
 [View more](https://morth.gov.in/#/documents/reports)
 
-## ![Image 26: icon](https://morth.gov.in/assets/images/userpersonas.svg) Explore User Personas
+## ![Image 28: icon](https://morth.gov.in/assets/images/userpersonas.svg) Explore User Personas
 
-## ![Image 27: icon](https://morth.gov.in/assets/images/importantsLinks.svg) Important Links
+[![Image 29: Persona for-business-owner](https://morth.gov.in/backend/documents/uploaded/1757657298.png)](https://morth.gov.in/#/persona/details/for-business-owner)
+for-business-owner
 
-## ![Image 28: icon](https://morth.gov.in/assets/images/image.svg) In Social Media
+[![Image 30: Persona media](https://morth.gov.in/backend/documents/uploaded/1754386783.png)](https://morth.gov.in/#/persona/details/media)
+media
+
+[![Image 31: Persona for-researcher](https://morth.gov.in/backend/documents/uploaded/1754386720.png)](https://morth.gov.in/#/persona/details/for-researcher)
+for-researcher
+
+## ![Image 32: icon](https://morth.gov.in/assets/images/importantsLinks.svg) Important Links
+
+## ![Image 33: icon](https://morth.gov.in/assets/images/image.svg) In Social Media
 
 ### X
 
-*   > [pic.twitter.com/uxVFWERChP](https://t.co/uxVFWERChP)
+*    
+> [pic.twitter.com/uxVFWERChP](https://t.co/uxVFWERChP)
 > 
 > — MORTHINDIA (@MORTHIndia) [August 12, 2016](https://twitter.com/MORTHIndia/status/763962803937869824?ref_src=twsrc%5Etfw)
 
@@ -167,7 +203,7 @@ Schemes Vacancies Tenders
 
 ### Instagram
 
-![Image 29: Digital Personal Data](https://morth.gov.in/)
+![Image 34: Digital Personal Data](https://morth.gov.in/)
 
 [Video 3](https://morth.gov.in/)
 
@@ -186,14 +222,14 @@ This Website belongs to Ministry of Road Transport and Highways, Government of I
 
 ## Subscribe for Updates
 
-*   [![Image 30: X](https://morth.gov.in/assets/images/X.svg)](https://x.com/MORTHIndia)
-*   [![Image 31: YouTube](https://morth.gov.in/assets/images/YouTube.svg)](https://www.youtube.com/channel/UCTOhBdWjB0FOH1MNa5mEBJg)
-*   [![Image 32: Facebook](https://morth.gov.in/assets/images/Facebook.svg)](https://www.facebook.com/MoRTHIndia/)
-*   [![Image 33: Instagram](https://morth.gov.in/assets/images/Instagram.svg)](https://www.instagram.com/morthindia/)
+*   [![Image 35: X](https://morth.gov.in/assets/images/X.svg)](https://x.com/MORTHIndia)
+*   [![Image 36: YouTube](https://morth.gov.in/assets/images/YouTube.svg)](https://www.youtube.com/channel/UCTOhBdWjB0FOH1MNa5mEBJg)
+*   [![Image 37: Facebook](https://morth.gov.in/assets/images/Facebook.svg)](https://www.facebook.com/MoRTHIndia/)
+*   [![Image 38: Instagram](https://morth.gov.in/assets/images/Instagram.svg)](https://www.instagram.com/morthindia/)
 
-[![Image 34: myGov](https://morth.gov.in/assets/images/mygovmerisarkar.webp)](https://www.mygov.in/)[![Image 35: National Portal Of India](https://morth.gov.in/assets/images/indiaportal.svg)](https://www.india.gov.in/)
+[![Image 39: myGov](https://morth.gov.in/assets/images/mygovmerisarkar.webp)](https://www.mygov.in/)[![Image 40: National Portal Of India](https://morth.gov.in/assets/images/indiaportal.svg)](https://www.india.gov.in/)
 
-Last Updated On: Jun 17, 2026
+Last Updated On: Jun 18, 2026
 
 This website uses cookies to provide a better user experience.
 
