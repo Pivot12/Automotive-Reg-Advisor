@@ -178,32 +178,13 @@ Schemes Vacancies Tenders
 
 ## ![Image 32: icon](http://morth.gov.in/assets/images/recentDocument.svg) Recent Documents
 
-*   [Report](http://morth.gov.in/)
-Arbitral Award
-
-*   [Act and Policies](http://morth.gov.in/)
-Manner of Deposition Rules, 2019
-
 [View more](http://morth.gov.in/#/documents/reports)
 
 ## ![Image 33: icon](http://morth.gov.in/assets/images/userpersonas.svg) Explore User Personas
 
-[![Image 34: Persona for-business-owner](http://morth.gov.in/backend/documents/uploaded/1757657298.png)](http://morth.gov.in/#/persona/details/for-business-owner)
-for-business-owner
+## ![Image 34: icon](http://morth.gov.in/assets/images/importantsLinks.svg) Important Links
 
-[![Image 35: Persona media](http://morth.gov.in/backend/documents/uploaded/1754386783.png)](http://morth.gov.in/#/persona/details/media)
-media
-
-[![Image 36: Persona for-researcher](http://morth.gov.in/backend/documents/uploaded/1754386720.png)](http://morth.gov.in/#/persona/details/for-researcher)
-for-researcher
-
-## ![Image 37: icon](http://morth.gov.in/assets/images/importantsLinks.svg) Important Links
-
-*   [Bhoomi Rashi Portal](https://bhoomirashi.gov.in/auth/revamp/login1.cshtml)
-*   [mParivahan Portal](https://mparivahan.parivahan.gov.in/#/)
-*   [Parivahan Sewa Portal](https://parivahan.gov.in/)
-
-## ![Image 38: icon](http://morth.gov.in/assets/images/image.svg) In Social Media
+## ![Image 35: icon](http://morth.gov.in/assets/images/image.svg) In Social Media
 
 ### X
 
@@ -222,7 +203,7 @@ for-researcher
 
 ### Instagram
 
-![Image 39: Digital Personal Data](http://morth.gov.in/)
+![Image 36: Digital Personal Data](http://morth.gov.in/)
 
 [Video 3](http://morth.gov.in/)
 
@@ -241,14 +222,14 @@ This Website belongs to Ministry of Road Transport and Highways, Government of I
 
 ## Subscribe for Updates
 
-*   [![Image 40: X](http://morth.gov.in/assets/images/X.svg)](https://x.com/MORTHIndia)
-*   [![Image 41: YouTube](http://morth.gov.in/assets/images/YouTube.svg)](https://www.youtube.com/channel/UCTOhBdWjB0FOH1MNa5mEBJg)
-*   [![Image 42: Facebook](http://morth.gov.in/assets/images/Facebook.svg)](https://www.facebook.com/MoRTHIndia/)
-*   [![Image 43: Instagram](http://morth.gov.in/assets/images/Instagram.svg)](https://www.instagram.com/morthindia/)
+*   [![Image 37: X](http://morth.gov.in/assets/images/X.svg)](https://x.com/MORTHIndia)
+*   [![Image 38: YouTube](http://morth.gov.in/assets/images/YouTube.svg)](https://www.youtube.com/channel/UCTOhBdWjB0FOH1MNa5mEBJg)
+*   [![Image 39: Facebook](http://morth.gov.in/assets/images/Facebook.svg)](https://www.facebook.com/MoRTHIndia/)
+*   [![Image 40: Instagram](http://morth.gov.in/assets/images/Instagram.svg)](https://www.instagram.com/morthindia/)
 
-[![Image 44: myGov](http://morth.gov.in/assets/images/mygovmerisarkar.webp)](https://www.mygov.in/)[![Image 45: National Portal Of India](http://morth.gov.in/assets/images/indiaportal.svg)](https://www.india.gov.in/)
+[![Image 41: myGov](http://morth.gov.in/assets/images/mygovmerisarkar.webp)](https://www.mygov.in/)[![Image 42: National Portal Of India](http://morth.gov.in/assets/images/indiaportal.svg)](https://www.india.gov.in/)
 
-Last Updated On: Jun 20, 2026
+Last Updated On: Jun 21, 2026
 
 This website uses cookies to provide a better user experience.
 
