@@ -3,8 +3,6 @@ Title: Homepage - Vehicle Certification Agency
 URL Source: https://www.vehicle-certification-agency.gov.uk/
 
 Markdown Content:
-# Homepage - Vehicle Certification Agency
-
 [Skip to main content](https://www.vehicle-certification-agency.gov.uk/#content)
 
 The Vehicle Certification Agency uses essential cookies and similar technologies that allow the site to work properly. It also uses website usage cookies that can be switched on or off. Closing this box will disable website usage cookies.

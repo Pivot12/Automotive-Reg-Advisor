@@ -5,8 +5,6 @@ URL Source: https://www.acea.auto/regulations/
 Warning: Target URL returned error 404: Not Found
 
 Markdown Content:
-# Page not found - ACEA - European Automobile Manufacturers' Association
-
 [![Image 1: ACEA](https://www.acea.auto/wp-content/themes/acea-theme/img/acea-logo-tagline.svg)![Image 2: ACEA](https://www.acea.auto/wp-content/themes/acea-theme/img/acea-logo.svg)](https://www.acea.auto/)
 
 [Stay up-to-date![Image 3: search](https://www.acea.auto/files/icons/envelope.svg)](https://www.acea.auto/regulations/#)![Image 4: search](https://www.acea.auto/files/icons/search.svg)
