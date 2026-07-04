@@ -2,8 +2,6 @@ Title: Ministry of Road Transport & Highways, Government Of India
 
 URL Source: https://morth.nic.in/
 
-Published Time: Wed, 27 May 2026 13:52:58 GMT
-
 Markdown Content:
 ![Image 1: MoRTH](http://morth.gov.in/assets/images/govtlogo.svg)[Government of India**Ministry of Road Transport and Highways**](http://morth.gov.in/#/ "MoRTH")
 
@@ -156,9 +154,6 @@ Schemes Vacancies Tenders
 ### X
 
 *    
-> [pic.twitter.com/uxVFWERChP](https://t.co/uxVFWERChP)
-> 
-> — MORTHINDIA (@MORTHIndia) [August 12, 2016](https://twitter.com/MORTHIndia/status/763962803937869824?ref_src=twsrc%5Etfw)
 
 ### YouTube
 
@@ -196,7 +191,7 @@ This Website belongs to Ministry of Road Transport and Highways, Government of I
 
 [![Image 34: myGov](http://morth.gov.in/assets/images/mygovmerisarkar.webp)](https://www.mygov.in/)[![Image 35: National Portal Of India](http://morth.gov.in/assets/images/indiaportal.svg)](https://www.india.gov.in/)
 
-Last Updated On: Jul 3, 2026
+Last Updated On: Jul 4, 2026
 
 This website uses cookies to provide a better user experience.
 
