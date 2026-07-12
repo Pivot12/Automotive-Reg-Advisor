@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastRun": "2026-07-11T10:08:13.990Z",
+    "lastRun": "2026-07-12T10:17:32.545Z",
     "sourcesMonitored": 9
   },
   "sources": [
@@ -9,7 +9,7 @@
       "name": "US NHTSA (Laws & Regulations)",
       "region": "North America",
       "url": "https://www.nhtsa.gov/laws-regulations",
-      "lastChecked": "2026-07-11T10:08:13.990Z",
+      "lastChecked": "2026-07-12T10:17:32.545Z",
       "status": "unchanged",
       "delta": 0
     },
@@ -18,7 +18,7 @@
       "name": "US EPA (Vehicle & Engine Emissions)",
       "region": "North America",
       "url": "https://www.epa.gov/regulations-emissions-vehicles-and-engines",
-      "lastChecked": "2026-07-11T10:08:13.990Z",
+      "lastChecked": "2026-07-12T10:17:32.545Z",
       "status": "unchanged",
       "delta": 0
     },
@@ -27,7 +27,7 @@
       "name": "EU Commission (Automotive Industry)",
       "region": "European Union",
       "url": "https://single-market-economy.ec.europa.eu/sectors/automotive-industry_en",
-      "lastChecked": "2026-07-11T10:08:13.990Z",
+      "lastChecked": "2026-07-12T10:17:32.545Z",
       "status": "unchanged",
       "delta": 0
     },
@@ -36,7 +36,7 @@
       "name": "UNECE (Vehicle Regulations / WP.29)",
       "region": "Global",
       "url": "https://unece.org/transport/vehicle-regulations",
-      "lastChecked": "2026-07-11T10:08:13.990Z",
+      "lastChecked": "2026-07-12T10:17:32.545Z",
       "status": "changed",
       "delta": 0
     },
@@ -45,7 +45,7 @@
       "name": "ACEA (EU Auto Manufacturers Assn.)",
       "region": "European Union",
       "url": "https://www.acea.auto/regulations/",
-      "lastChecked": "2026-07-11T10:08:13.990Z",
+      "lastChecked": "2026-07-12T10:17:32.545Z",
       "status": "unchanged",
       "delta": 0
     },
@@ -54,7 +54,7 @@
       "name": "UK Vehicle Certification Agency",
       "region": "United Kingdom",
       "url": "https://www.vehicle-certification-agency.gov.uk/",
-      "lastChecked": "2026-07-11T10:08:13.990Z",
+      "lastChecked": "2026-07-12T10:17:32.545Z",
       "status": "unchanged",
       "delta": 0
     },
@@ -63,7 +63,7 @@
       "name": "Japan MLIT",
       "region": "Japan",
       "url": "https://www.mlit.go.jp/en/",
-      "lastChecked": "2026-07-11T10:08:13.990Z",
+      "lastChecked": "2026-07-12T10:17:32.545Z",
       "status": "unchanged",
       "delta": 0
     },
@@ -72,21 +72,42 @@
       "name": "India MoRTH",
       "region": "India",
       "url": "https://morth.nic.in/",
-      "lastChecked": "2026-07-11T10:08:13.990Z",
+      "lastChecked": "2026-07-12T10:17:32.545Z",
       "status": "changed",
-      "delta": 240863
+      "delta": 2271
     },
     {
       "key": "AUSTRALIA",
       "name": "Australia Dept. of Infrastructure (Vehicle Design)",
       "region": "Australia",
       "url": "https://www.infrastructure.gov.au/infrastructure-transport-vehicles/vehicles/vehicle-design-regulation",
-      "lastChecked": "2026-07-11T10:08:13.990Z",
+      "lastChecked": "2026-07-12T10:17:32.545Z",
       "status": "changed",
-      "delta": -147
+      "delta": -377670
     }
   ],
   "changes": [
+    {
+      "date": "2026-07-12",
+      "region": "Global",
+      "authority": "UNECE (Vehicle Regulations / WP.29)",
+      "url": "https://unece.org/transport/vehicle-regulations",
+      "note": "Page content changed (+0 characters since the last check). Review the source for the update."
+    },
+    {
+      "date": "2026-07-12",
+      "region": "India",
+      "authority": "India MoRTH",
+      "url": "https://morth.nic.in/",
+      "note": "Page content changed (+2271 characters since the last check). Review the source for the update."
+    },
+    {
+      "date": "2026-07-12",
+      "region": "Australia",
+      "authority": "Australia Dept. of Infrastructure (Vehicle Design)",
+      "url": "https://www.infrastructure.gov.au/infrastructure-transport-vehicles/vehicles/vehicle-design-regulation",
+      "note": "Page content changed (-377670 characters since the last check). Review the source for the update."
+    },
     {
       "date": "2026-07-11",
       "region": "Global",
@@ -765,27 +786,6 @@
       "authority": "UK VCA",
       "url": "https://www.vehicle-certification-agency.gov.uk/blog/minister-urges-industry-readiness-as-new-gb-type-approval-legislation-comes-into-force/",
       "note": "The Road Vehicles (Type-Approval) (Amendment) Regulations 2025 (SI 2025 No. 661), laid before Parliament 12 June 2025, entered into force on 3 July 2025. They make EU VECTO component certifications permanently acceptable in the GB scheme and add updated UN Regulations for ISOFIX and Automated Lane Keeping Systems (ALKS)."
-    },
-    {
-      "date": "2025-07-01",
-      "region": "australia",
-      "authority": "Australia Dept. of Infrastructure",
-      "url": "https://www.nvesregulator.gov.au/what-new-vehicle-efficiency-standard",
-      "note": "Australia's New Vehicle Efficiency Standard (NVES) commenced 1 January 2025 with mandatory CO2 targets for new-vehicle suppliers (141 g/km headline for passenger cars/SUVs, 210 g/km for larger Type 2 vehicles). The penalty component took effect 1 July 2025, charging AUD 100 per gram of excess emissions, with a unit-trading scheme."
-    },
-    {
-      "date": "2025-06-24",
-      "region": "global",
-      "authority": "UNECE WP.29",
-      "url": "https://unece.org/transport/documents/2025/06/informal-documents/secretariat-draft-running-order-196th-session-wp29",
-      "note": "At its 196th session (24-27 June 2025), the UNECE World Forum WP.29 considered amendments to UN Regulation No. 171 on Driver Control Assistance Systems (DCAS), a Level-2 ADAS framework, plus modifications across dozens of other UN vehicle regulations covering safety, lighting and steering equipment."
-    },
-    {
-      "date": "2025-06-17",
-      "region": "eu",
-      "authority": "European Commission",
-      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=OJ:L_202501214",
-      "note": "Regulation (EU) 2025/1214 (adopted 17 June 2025) amends the CO2 emission-performance standards for cars and vans (Reg. (EU) 2019/631) to let manufacturers comply over a 2025-2027 three-year average rather than annually — easing the 2025 target after weaker-than-expected EV demand."
     }
   ]
 }

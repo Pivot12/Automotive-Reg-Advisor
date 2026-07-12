@@ -149,15 +149,24 @@ Shri Harsh Malhotra
 
 Schemes Vacancies Tenders
 
-*   No schemes available
+*   [PM Rahat](http://morth.gov.in/#/offerings/schemes-and-services/details/schemes-and-services)
+*   [PM Rahat](http://morth.gov.in/#/offerings/schemes-and-services/details/pm-rahat)
+*   [SARDP including Arunachal Pradesh Package](http://morth.gov.in/#/offerings/schemes-and-services/details/sardp-including-arunachal-pradesh-package)
+*   [Connectivity in LWE Area](http://morth.gov.in/#/offerings/schemes-and-services/details/connectivity-in-lwe-area)
+*   [Vijayawada Ranchi](http://morth.gov.in/#/offerings/schemes-and-services/details/vijayawada-ranchi)
 
-*   No vacancies available
+*   [vacancies](http://morth.gov.in/#/offerings/vacancies)
 
-*   No tenders available
+*   [Tenders](http://morth.gov.in/#/offerings/tenders)
 
 [View More](http://morth.gov.in/#/offerings/schemes-and-services)
 
 ## ![Image 31: What's New Icon](http://morth.gov.in/assets/images/whatsnew.svg) What's New
+
+*   [Delegation of Powers for Plan, Sanction, Award and Implementation of NH Works-reg.](http://morth.gov.in/backend/documents/uploaded/1783662983_6FzjNQeFvJ.pdf)
+*   [S.O. 3680(E) Aadhaar Authentication for the purpose of usage of digital platforms to ensure good governance.](http://morth.gov.in/backend/documents/uploaded/1783585365_gV4PudZwSz.pdf)
+*   [CIRCULAR 1930.8- Descoping/withdrawal of Bridge Health Monitoring System (BHMS) work from the Scope of existing Contract Agreements / Concession Agreements and Adoption of New Model RFP for Supply, Installation, Commissioning, and Operation & Maintenance of Sensors for Real-time Health Monitoring of Bridges – Reg](http://morth.gov.in/backend/documents/uploaded/1783489707_QGOuW1VcfP.pdf)
+*   [Proposal seeking permission for laying of Sewerage Line from Ch. 206.425 to Ch. 207.015 & Ch. 207.355 to 208.345 (RHS) and Ch.206.425 to Ch.208.345 (LHS) with 01 crossing at Ch. 206.425 (Total Length= 4099.95 mtr + 40 mtr = 4139.95 mtr on NH-34) along NH-58 (new NH-34) (Haridwar - Dehradun Section) in district Haridwar in the state of Uttarakhand.](http://morth.gov.in/backend/documents/uploaded/1782993477_x31VRYnC9o.pdf)
 
 [View More](http://morth.gov.in/#/whats-new)
 
@@ -173,13 +182,22 @@ Manner of Deposition Rules, 2019
 
 ## ![Image 33: icon](http://morth.gov.in/assets/images/userpersonas.svg) Explore User Personas
 
-## ![Image 34: icon](http://morth.gov.in/assets/images/importantsLinks.svg) Important Links
+[![Image 34: Persona for-business-owner](http://morth.gov.in/backend/documents/uploaded/1757657298.png)](http://morth.gov.in/#/persona/details/for-business-owner)
+for-business-owner
+
+[![Image 35: Persona media](http://morth.gov.in/backend/documents/uploaded/1754386783.png)](http://morth.gov.in/#/persona/details/media)
+media
+
+[![Image 36: Persona for-researcher](http://morth.gov.in/backend/documents/uploaded/1754386720.png)](http://morth.gov.in/#/persona/details/for-researcher)
+for-researcher
+
+## ![Image 37: icon](http://morth.gov.in/assets/images/importantsLinks.svg) Important Links
 
 *   [Bhoomi Rashi Portal](https://bhoomirashi.gov.in/auth/revamp/login1.cshtml)
 *   [mParivahan Portal](https://mparivahan.parivahan.gov.in/#/)
 *   [Parivahan Sewa Portal](https://parivahan.gov.in/)
 
-## ![Image 35: icon](http://morth.gov.in/assets/images/image.svg) In Social Media
+## ![Image 38: icon](http://morth.gov.in/assets/images/image.svg) In Social Media
 
 ### X
 
@@ -195,7 +213,7 @@ Manner of Deposition Rules, 2019
 
 ### Instagram
 
-![Image 36: Digital Personal Data](http://morth.gov.in/)
+![Image 39: Digital Personal Data](http://morth.gov.in/)
 
 [Video 3](http://morth.gov.in/)
 
@@ -214,14 +232,14 @@ This Website belongs to Ministry of Road Transport and Highways, Government of I
 
 ## Subscribe for Updates
 
-*   [![Image 37: X](http://morth.gov.in/assets/images/X.svg)](https://x.com/MORTHIndia)
-*   [![Image 38: YouTube](http://morth.gov.in/assets/images/YouTube.svg)](https://www.youtube.com/channel/UCTOhBdWjB0FOH1MNa5mEBJg)
-*   [![Image 39: Facebook](http://morth.gov.in/assets/images/Facebook.svg)](https://www.facebook.com/MoRTHIndia/)
-*   [![Image 40: Instagram](http://morth.gov.in/assets/images/Instagram.svg)](https://www.instagram.com/morthindia/)
+*   [![Image 40: X](http://morth.gov.in/assets/images/X.svg)](https://x.com/MORTHIndia)
+*   [![Image 41: YouTube](http://morth.gov.in/assets/images/YouTube.svg)](https://www.youtube.com/channel/UCTOhBdWjB0FOH1MNa5mEBJg)
+*   [![Image 42: Facebook](http://morth.gov.in/assets/images/Facebook.svg)](https://www.facebook.com/MoRTHIndia/)
+*   [![Image 43: Instagram](http://morth.gov.in/assets/images/Instagram.svg)](https://www.instagram.com/morthindia/)
 
-[![Image 41: myGov](http://morth.gov.in/assets/images/mygovmerisarkar.webp)](https://www.mygov.in/)[![Image 42: National Portal Of India](http://morth.gov.in/assets/images/indiaportal.svg)](https://www.india.gov.in/)
+[![Image 44: myGov](http://morth.gov.in/assets/images/mygovmerisarkar.webp)](https://www.mygov.in/)[![Image 45: National Portal Of India](http://morth.gov.in/assets/images/indiaportal.svg)](https://www.india.gov.in/)
 
-Last Updated On: Jul 11, 2026
+Last Updated On: Jul 12, 2026
 
 This website uses cookies to provide a better user experience.
 
