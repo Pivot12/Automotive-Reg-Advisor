@@ -1,0 +1,20 @@
+{
+  "_comment": "UN Regulation number → official UNECE page. Verified live 2026-07-14. rangePages cover UN Regs 0-160 (each lists all revisions/amendments + PDF links for the regs in its range). docPages are direct document pages for high-value regs. Regs 161+ (e.g. R171 DCAS) have no addenda range page yet — they route to the WP.29 main page.",
+  "rangePages": [
+    { "min": 0,   "max": 20,  "url": "https://unece.org/transport/vehicle-regulations-wp29/standards/addenda-1958-agreement-regulations-0-20" },
+    { "min": 21,  "max": 40,  "url": "https://unece.org/transport/vehicle-regulations-wp29/standards/addenda-1958-agreement-regulations-21-40" },
+    { "min": 41,  "max": 60,  "url": "https://unece.org/transport/vehicle-regulations-wp29/standards/addenda-1958-agreement-regulations-41-60" },
+    { "min": 61,  "max": 80,  "url": "https://unece.org/transport/vehicle-regulations-wp29/standards/addenda-1958-agreement-regulations-61-80" },
+    { "min": 81,  "max": 100, "url": "https://unece.org/transport/vehicle-regulations-wp29/standards/addenda-1958-agreement-regulations-81-100" },
+    { "min": 101, "max": 120, "url": "https://unece.org/transport/vehicle-regulations-wp29/standards/addenda-1958-agreement-regulations-101-120" },
+    { "min": 121, "max": 140, "url": "https://unece.org/transport/vehicle-regulations-wp29/standards/addenda-1958-agreement-regulations-121-140" },
+    { "min": 141, "max": 160, "url": "https://unece.org/transport/vehicle-regulations-wp29/standards/addenda-1958-agreement-regulations-141-160" }
+  ],
+  "docPages": {
+    "152": { "name": "UN Regulation No. 152 (AEB for M1/N1)", "url": "https://unece.org/transport/documents/2023/06/standards/un-regulation-no-152-rev2" },
+    "155": { "name": "UN Regulation No. 155 (Cyber Security & CSMS)", "url": "https://unece.org/transport/documents/2021/03/standards/un-regulation-no-155-cyber-security-and-cyber-security" },
+    "156": { "name": "UN Regulation No. 156 (Software Update & SUMS)", "url": "https://unece.org/transport/documents/2021/03/standards/un-regulation-no-156-software-update-and-software-update" },
+    "157": { "name": "UN Regulation No. 157 (ALKS)", "url": "https://unece.org/transport/documents/2025/03/standards/addendum-156-un-regulation-no-157-rev1-01-series-amendments" },
+    "160": { "name": "UN Regulation No. 160 (Event Data Recorder)", "url": "https://unece.org/transport/documents/2023/01/standards/un-regulation-no160-revision-1-event-data-recorder-edr-01" }
+  }
+}

@@ -1,5 +1,7 @@
 // Serverless endpoint: POST /api/ask  { question: string }
 // RAG over LIVE official sources. Retrieval strategy (robust, no-fabrication):
+//   0. Explicit UN/ECE regulation numbers (e.g. "R160") route to the official UNECE document page
+//      via data/regs_index.json, then hop to the regulation PDF text via Jina Reader.
 //   1. If TAVILY_API_KEY set: Tavily search restricted to the official domains for the question's
 //      region/topic (bypasses gov-site bot-blocking, returns clean extracted content). Falls back to
 //      an unrestricted Tavily search if the domain-scoped one is thin.
@@ -22,18 +24,65 @@ const FIRECRAWL_API_KEY = process.env.FIRECRAWL_API_KEY || ""; // optional extra
 const MAX_SOURCES = 4;
 const MAX_DOCS = 6;
 const MAX_CHARS_PER_DOC = 4000;
+const MAX_CHARS_PDF = 8000; // regulation PDFs carry the actual requirements — keep more
 
 function loadSources() {
   return JSON.parse(readFileSync(join(__dirname, "..", "data", "sources.json"), "utf-8"));
 }
 
+function loadRegsIndex() {
+  try { return JSON.parse(readFileSync(join(__dirname, "..", "data", "regs_index.json"), "utf-8")); }
+  catch { return null; }
+}
+
+// Detect explicit UN/ECE regulation numbers: "R160", "UN R 160", "ECE-R160", "Regulation 160", "Regulation No. 160"
+function detectRegNumbers(question) {
+  const nums = new Set();
+  const patterns = [
+    /\b(?:un\s*|ece\s*[- ]?|unece\s*)?r\s?\.?\s?(\d{1,3})\b/gi,
+    /\bregulation\s+(?:no\.?\s*)?(\d{1,3})\b/gi,
+  ];
+  for (const re of patterns) {
+    let m;
+    while ((m = re.exec(question)) !== null) {
+      const n = parseInt(m[1], 10);
+      if (n >= 0 && n <= 200) nums.add(n);
+    }
+  }
+  return [...nums];
+}
+
+// UNECE-specific sources for explicitly-named regulations (official doc page or addenda range page).
+function regSources(question) {
+  const idx = loadRegsIndex();
+  if (!idx) return [];
+  const out = [];
+  for (const n of detectRegNumbers(question)) {
+    const doc = idx.docPages && idx.docPages[String(n)];
+    if (doc) { out.push({ key: `UN_R${n}`, name: doc.name, url: doc.url }); continue; }
+    const range = (idx.rangePages || []).find((r) => n >= r.min && n <= r.max);
+    if (range) out.push({ key: `UN_R${n}`, name: `UNECE Addenda page listing UN Regulation No. ${n}`, url: range.url });
+  }
+  return out;
+}
+
+// Match routing keys on word boundaries — plain substring matching wrongly fired
+// e.g. topic "ev" inside "event", region "us" inside "trust".
+function matchesKey(q, key) {
+  return new RegExp(`(^|[^a-z0-9])${key.replace(/[.*+?^${}()|[\\]\\\\]/g, "\\$&")}([^a-z0-9]|$)`, "i").test(q);
+}
+
 function pickSources(question, cfg) {
   const q = question.toLowerCase();
   const keys = new Set();
-  for (const [region, list] of Object.entries(cfg.regionRouting)) if (q.includes(region)) list.forEach((k) => keys.add(k));
-  for (const [topic, list] of Object.entries(cfg.topicRouting)) if (q.includes(topic)) list.forEach((k) => keys.add(k));
+  for (const [region, list] of Object.entries(cfg.regionRouting)) if (matchesKey(q, region)) list.forEach((k) => keys.add(k));
+  for (const [topic, list] of Object.entries(cfg.topicRouting)) if (matchesKey(q, topic)) list.forEach((k) => keys.add(k));
   if (keys.size === 0) cfg.defaultSources.forEach((k) => keys.add(k));
-  return [...keys].slice(0, MAX_SOURCES).map((k) => ({ key: k, ...cfg.sources[k] })).filter((s) => s.url);
+  const routed = [...keys].slice(0, MAX_SOURCES).map((k) => ({ key: k, ...cfg.sources[k] })).filter((s) => s.url);
+  // Regulation-number sources go FIRST — they are the most specific official pages.
+  const regs = regSources(question);
+  const seen = new Set(regs.map((s) => s.url));
+  return [...regs, ...routed.filter((s) => !seen.has(s.url))].slice(0, MAX_SOURCES + regs.length);
 }
 
 function hostOf(url) { try { return new URL(url).hostname.replace(/^www\./, ""); } catch { return ""; } }
@@ -86,14 +135,14 @@ async function directFetch(url) {
     return looksBlocked(text) ? null : text.slice(0, MAX_CHARS_PER_DOC);
   } catch { return null; }
 }
-async function jinaFetch(url) {
+async function jinaFetch(url, maxChars = MAX_CHARS_PER_DOC) {
   try {
     const headers = { "X-Return-Format": "markdown" };
     if (JINA_API_KEY) headers["Authorization"] = `Bearer ${JINA_API_KEY}`;
-    const r = await fetchWithTimeout(`https://r.jina.ai/${url}`, { headers }, 9000);
+    const r = await fetchWithTimeout(`https://r.jina.ai/${url}`, { headers }, 12000);
     if (!r.ok) return null;
     const text = await r.text();
-    return looksBlocked(text) ? null : text.slice(0, MAX_CHARS_PER_DOC);
+    return looksBlocked(text) ? null : text.slice(0, maxChars);
   } catch { return null; }
 }
 async function firecrawlFetch(url) {
@@ -113,14 +162,41 @@ async function firecrawlFetch(url) {
 async function keylessRetrieve(selected) {
   const out = [];
   await Promise.all(selected.map(async (s) => {
-    const text = (await directFetch(s.url)) || (await jinaFetch(s.url)) || (await firecrawlFetch(s.url));
+    // For UNECE pages, Jina first — it returns markdown WITH the PDF links pdfHop needs.
+    const preferJina = /unece\.org/.test(s.url);
+    const text = preferJina
+      ? (await jinaFetch(s.url)) || (await directFetch(s.url)) || (await firecrawlFetch(s.url))
+      : (await directFetch(s.url)) || (await jinaFetch(s.url)) || (await firecrawlFetch(s.url));
     if (text) out.push({ name: s.name, url: s.url, text });
   }));
   return out;
 }
 
+// PDF hop: UNECE document/addenda pages contain links to the actual regulation PDFs.
+// Jina Reader can extract text from those PDFs — that's where the real requirements live.
+async function pdfHop(docs, question) {
+  const regNums = detectRegNumbers(question);
+  if (!regNums.length) return docs;
+  const pdfUrls = new Set();
+  for (const d of docs) {
+    if (!/unece\.org/.test(d.url)) continue;
+    const matches = (d.text || "").match(/https?:\/\/unece\.org\/sites\/default\/files\/[^\s)"'\]]+\.pdf/gi) || [];
+    for (const u of matches) {
+      // Prefer PDFs whose filename mentions one of the asked reg numbers (e.g. R160e.pdf, R160r1e.pdf)
+      if (regNums.some((n) => new RegExp(`R0*${n}[^0-9]`, "i").test(u.split("/").pop()))) pdfUrls.add(u);
+    }
+  }
+  const picks = [...pdfUrls].slice(0, 2); // cap: serverless time budget
+  await Promise.all(picks.map(async (u) => {
+    const text = await jinaFetch(u, MAX_CHARS_PDF);
+    if (text) docs.unshift({ name: `Official regulation text (PDF): ${u.split("/").pop()}`, url: u, text });
+  }));
+  return docs.slice(0, MAX_DOCS);
+}
+
 async function retrieve(question, selected) {
   const domains = [...new Set(selected.map((s) => hostOf(s.url)).filter(Boolean))];
+  const regSpecific = selected.filter((s) => /^UN_R\d+/.test(s.key || ""));
   if (TAVILY_API_KEY) {
     let docs = await tavilySearch(question, domains);          // official-domain scoped
     if (docs.length < 2) {
@@ -128,9 +204,20 @@ async function retrieve(question, selected) {
       const seen = new Set(docs.map((d) => d.url));
       for (const d of wide) if (!seen.has(d.url)) docs.push(d);
     }
-    if (docs.length) return docs.slice(0, MAX_DOCS);
+    if (docs.length) {
+      // Even when Tavily works, make sure explicitly-named regs get their official page + PDF text.
+      if (regSpecific.length) {
+        const regDocs = await keylessRetrieve(regSpecific);
+        const seen = new Set(docs.map((d) => d.url));
+        for (const d of regDocs) if (!seen.has(d.url)) docs.unshift(d);
+        docs = await pdfHop(docs, question);
+      }
+      return docs.slice(0, MAX_DOCS);
+    }
   }
-  return await keylessRetrieve(selected);                       // keyless fallback
+  let docs = await keylessRetrieve(selected);                   // keyless fallback
+  docs = await pdfHop(docs, question);                          // pull actual regulation PDF text
+  return docs;
 }
 
 async function askLLM(question, docs) {
