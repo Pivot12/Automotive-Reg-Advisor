@@ -172,6 +172,28 @@ async function keylessRetrieve(selected) {
   return out;
 }
 
+// ---- Retrieval path 0: local cached regulation text (data/cache/regs/R{n}.txt) ----
+// Bundled with the deployment (vercel.json includeFiles data/**). Immune to unece.org
+// bot-blocking and API quotas. Naive chunk ranking keeps only question-relevant parts.
+function localRegDocs(question) {
+  const out = [];
+  for (const n of detectRegNumbers(question)) {
+    try {
+      const raw = readFileSync(join(__dirname, "..", "data", "cache", "regs", `R${n}.txt`), "utf-8");
+      const words = [...new Set(question.toLowerCase().match(/[a-z]{4,}/g) || [])];
+      const chunks = [];
+      for (let i = 0; i < raw.length; i += 2000) chunks.push(raw.slice(i, i + 2400)); // 400-char overlap
+      const scored = chunks.map((c, i) => {
+        const lc = c.toLowerCase();
+        return { c, i, score: words.reduce((s, w) => s + (lc.includes(w) ? 1 : 0), 0) };
+      }).sort((a, b) => b.score - a.score).slice(0, 7).sort((a, b) => a.i - b.i);
+      const text = (raw.slice(0, 600) + "\n[...]\n" + scored.map((x) => x.c).join("\n[...]\n")).slice(0, 18000);
+      out.push({ name: `UN Regulation No. ${n} \u2014 official text (cached copy)`, url: `https://unece.org/transport/vehicle-regulations`, text });
+    } catch { /* no cached copy for this reg \u2014 fall through to live retrieval */ }
+  }
+  return out;
+}
+
 // PDF hop: UNECE document/addenda pages contain links to the actual regulation PDFs.
 // Jina Reader can extract text from those PDFs — that's where the real requirements live.
 async function pdfHop(docs, question) {
@@ -197,6 +219,12 @@ async function pdfHop(docs, question) {
 async function retrieve(question, selected) {
   const domains = [...new Set(selected.map((s) => hostOf(s.url)).filter(Boolean))];
   const regSpecific = selected.filter((s) => /^UN_R\d+/.test(s.key || ""));
+  // Tier 0: bundled official regulation text \u2014 always wins for explicitly-named regs.
+  const local = localRegDocs(question);
+  if (local.length) {
+    const extra = await keylessRetrieve(selected.filter((s) => !/^UN_R\d+/.test(s.key || "")).slice(0, 2));
+    return [...local, ...extra].slice(0, MAX_DOCS);
+  }
   if (TAVILY_API_KEY) {
     let docs = await tavilySearch(question, domains);          // official-domain scoped
     if (docs.length < 2) {
