@@ -255,17 +255,34 @@ async function askLLM(question, docs) {
     "Cite sources inline as [Source N]. If the sources DO contain the answer, answer fully and specifically. " +
     "If they do NOT contain enough to answer, say exactly what is missing and name the official body/standard to consult — " +
     "NEVER invent regulation numbers, dates, thresholds, or standard codes. End with a one-line reminder to verify with the official authority.";
-  const r = await fetchWithTimeout(`${LLM_BASE_URL}/chat/completions`, {
-    method: "POST",
-    headers: { "Content-Type": "application/json", Authorization: `Bearer ${LLM_API_KEY}` },
-    body: JSON.stringify({
-      model: LLM_MODEL, temperature: 0.1, max_tokens: 1200,
-      messages: [{ role: "system", content: system }, { role: "user", content: `Question: ${question}\n\nOfficial sources:\n${context}` }],
-    }),
-  }, 9000);
-  if (!r.ok) throw new Error(`LLM error ${r.status}: ${(await r.text().catch(() => "")).slice(0, 200)}`);
-  const data = await r.json();
-  return data.choices?.[0]?.message?.content?.trim() || "No answer generated.";
+  // Retry on 429/5xx/timeout: free tiers rate-limit under bursts. 3 attempts fit maxDuration 30s.
+  const delays = [0, 2500, 5000];
+  let lastStatus = 0;
+  for (let attempt = 0; attempt < delays.length; attempt++) {
+    if (delays[attempt]) await new Promise((res) => setTimeout(res, delays[attempt]));
+    let r;
+    try {
+      r = await fetchWithTimeout(`${LLM_BASE_URL}/chat/completions`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json", Authorization: `Bearer ${LLM_API_KEY}` },
+        body: JSON.stringify({
+          model: LLM_MODEL, temperature: 0.1, max_tokens: 1200,
+          messages: [{ role: "system", content: system }, { role: "user", content: `Question: ${question}\n\nOfficial sources:\n${context}` }],
+        }),
+      }, 8500);
+    } catch { lastStatus = 0; continue; }
+    if (r.ok) {
+      const data = await r.json();
+      return data.choices?.[0]?.message?.content?.trim() || "No answer generated.";
+    }
+    lastStatus = r.status;
+    if (r.status !== 429 && r.status < 500) {
+      throw new Error(`LLM error ${r.status}: ${(await r.text().catch(() => "")).slice(0, 200)}`);
+    }
+  }
+  const busy = new Error(`LLM busy after retries (last status ${lastStatus || "timeout"})`);
+  busy.busy = true;
+  throw busy;
 }
 
 function logEvent(req, payload) {
@@ -304,6 +321,13 @@ export default async function handler(req, res) {
     logEvent(req, { question, sources: docs.map((d) => hostOf(d.url)).join("|"), status: "ok", answer_chars: answer.length });
     res.status(200).json({ answer, sources: docs.map((d) => ({ name: d.name, url: d.url })) });
   } catch (err) {
-    res.status(200).json({ answer: `System error while researching: ${err.message}. Please try again.`, sources: [] });
+    const friendly = (err && err.busy)
+      ? "The reasoning engine is handling a burst of traffic right now. Please try again in about 30 seconds. Your question was received; nothing is broken."
+      : "Something went wrong while researching. Please try again in a moment.";
+    try {
+      const q = (typeof req.body === "string" ? JSON.parse(req.body || "{}") : req.body || {}).question || "";
+      logEvent(req, { question: q, sources: "", status: (err && err.busy) ? "llm_busy" : "error", answer_chars: 0 });
+    } catch {}
+    res.status(200).json({ answer: friendly, sources: [] });
   }
 }
