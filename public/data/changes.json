@@ -1,6 +1,6 @@
 {
   "meta": {
-    "lastRun": "2026-07-17T10:29:14.027Z",
+    "lastRun": "2026-07-18T10:08:06.580Z",
     "sourcesMonitored": 9
   },
   "sources": [
@@ -9,7 +9,7 @@
       "name": "US NHTSA (Laws & Regulations)",
       "region": "North America",
       "url": "https://www.nhtsa.gov/laws-regulations",
-      "lastChecked": "2026-07-17T10:29:14.027Z",
+      "lastChecked": "2026-07-18T10:08:06.580Z",
       "status": "unchanged",
       "delta": 0
     },
@@ -18,7 +18,7 @@
       "name": "US EPA (Vehicle & Engine Emissions)",
       "region": "North America",
       "url": "https://www.epa.gov/regulations-emissions-vehicles-and-engines",
-      "lastChecked": "2026-07-17T10:29:14.027Z",
+      "lastChecked": "2026-07-18T10:08:06.580Z",
       "status": "unchanged",
       "delta": 0
     },
@@ -27,7 +27,7 @@
       "name": "EU Commission (Automotive Industry)",
       "region": "European Union",
       "url": "https://single-market-economy.ec.europa.eu/sectors/automotive-industry_en",
-      "lastChecked": "2026-07-17T10:29:14.027Z",
+      "lastChecked": "2026-07-18T10:08:06.580Z",
       "status": "unchanged",
       "delta": 0
     },
@@ -36,16 +36,16 @@
       "name": "UNECE (Vehicle Regulations / WP.29)",
       "region": "Global",
       "url": "https://unece.org/transport/vehicle-regulations",
-      "lastChecked": "2026-07-17T10:29:14.027Z",
+      "lastChecked": "2026-07-18T10:08:06.580Z",
       "status": "changed",
-      "delta": -86
+      "delta": 0
     },
     {
       "key": "ACEA",
       "name": "ACEA (EU Auto Manufacturers Assn.)",
       "region": "European Union",
       "url": "https://www.acea.auto/regulations/",
-      "lastChecked": "2026-07-17T10:29:14.027Z",
+      "lastChecked": "2026-07-18T10:08:06.580Z",
       "status": "unchanged",
       "delta": 0
     },
@@ -54,7 +54,7 @@
       "name": "UK Vehicle Certification Agency",
       "region": "United Kingdom",
       "url": "https://www.vehicle-certification-agency.gov.uk/",
-      "lastChecked": "2026-07-17T10:29:14.027Z",
+      "lastChecked": "2026-07-18T10:08:06.580Z",
       "status": "unchanged",
       "delta": 0
     },
@@ -63,30 +63,51 @@
       "name": "Japan MLIT",
       "region": "Japan",
       "url": "https://www.mlit.go.jp/en/",
-      "lastChecked": "2026-07-17T10:29:14.027Z",
-      "status": "changed",
-      "delta": 143
+      "lastChecked": "2026-07-18T10:08:06.580Z",
+      "status": "unchanged",
+      "delta": 0
     },
     {
       "key": "INDIA_MORTH",
       "name": "India MoRTH",
       "region": "India",
       "url": "https://morth.nic.in/",
-      "lastChecked": "2026-07-17T10:29:14.027Z",
+      "lastChecked": "2026-07-18T10:08:06.580Z",
       "status": "changed",
-      "delta": -45
+      "delta": -248022
     },
     {
       "key": "AUSTRALIA",
       "name": "Australia Dept. of Infrastructure (Vehicle Design)",
       "region": "Australia",
       "url": "https://www.infrastructure.gov.au/infrastructure-transport-vehicles/vehicles/vehicle-design-regulation",
-      "lastChecked": "2026-07-17T10:29:14.027Z",
+      "lastChecked": "2026-07-18T10:08:06.580Z",
       "status": "changed",
-      "delta": -147
+      "delta": -377964
     }
   ],
   "changes": [
+    {
+      "date": "2026-07-18",
+      "region": "Global",
+      "authority": "UNECE (Vehicle Regulations / WP.29)",
+      "url": "https://unece.org/transport/vehicle-regulations",
+      "note": "Page content changed (+0 characters since the last check). Review the source for the update."
+    },
+    {
+      "date": "2026-07-18",
+      "region": "India",
+      "authority": "India MoRTH",
+      "url": "https://morth.nic.in/",
+      "note": "Page content changed (-248022 characters since the last check). Review the source for the update."
+    },
+    {
+      "date": "2026-07-18",
+      "region": "Australia",
+      "authority": "Australia Dept. of Infrastructure (Vehicle Design)",
+      "url": "https://www.infrastructure.gov.au/infrastructure-transport-vehicles/vehicles/vehicle-design-regulation",
+      "note": "Page content changed (-377964 characters since the last check). Review the source for the update."
+    },
     {
       "date": "2026-07-17",
       "region": "Global",
@@ -765,27 +786,6 @@
       "authority": "Australia Dept. of Infrastructure (Vehicle Design)",
       "url": "https://www.infrastructure.gov.au/infrastructure-transport-vehicles/vehicles/vehicle-design-regulation",
       "note": "Page content changed (+382732 characters since the last check). Review the source for the update."
-    },
-    {
-      "date": "2026-06-21",
-      "region": "Global",
-      "authority": "UNECE (Vehicle Regulations / WP.29)",
-      "url": "https://unece.org/transport/vehicle-regulations",
-      "note": "Page content changed (+0 characters since the last check). Review the source for the update."
-    },
-    {
-      "date": "2026-06-21",
-      "region": "Japan",
-      "authority": "Japan MLIT",
-      "url": "https://www.mlit.go.jp/en/",
-      "note": "Page content changed (+47 characters since the last check). Review the source for the update."
-    },
-    {
-      "date": "2026-06-21",
-      "region": "India",
-      "authority": "India MoRTH",
-      "url": "https://morth.nic.in/",
-      "note": "Page content changed (-828 characters since the last check). Review the source for the update."
     }
   ]
 }
