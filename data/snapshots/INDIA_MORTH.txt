@@ -2,8 +2,6 @@ Title: Ministry of Road Transport & Highways, Government Of India
 
 URL Source: https://morth.nic.in/
 
-Published Time: Wed, 06 May 2026 22:50:43 GMT
-
 Markdown Content:
 ![Image 1: MoRTH](http://morth.gov.in/assets/images/govtlogo.svg)[Government of India**Ministry of Road Transport and Highways**](http://morth.gov.in/#/ "MoRTH")
 
@@ -109,9 +107,13 @@ Default Cursor
 
 ![Image 16: Announcements](http://morth.gov.in/assets/images/announcement.png)
 
-![Image 17: pm-picture](http://morth.gov.in/backend/undefined)
+![Image 17: pm-picture](http://morth.gov.in/backend//documents/uploaded/pm.png)
 
-[![Image 18: View Event](http://morth.gov.in/assets/images/externalLink.svg) View Event](http://morth.gov.in/)
+Today, the focus on rural infrastructure in the country is greater than ever before. Most villages in the country are now connected to highways, expressways and railways.
+
+**Bharat Gramin Mahotsav** 04 JAN 2025 2:04PM 
+
+[![Image 18: View Event](http://morth.gov.in/assets/images/externalLink.svg) View Event](https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2090098&reg=3&lang=2)
 
 ## [![Image 19: icon](http://morth.gov.in/assets/images/ab.png) About Us](http://morth.gov.in/ministry)
 
@@ -151,9 +153,7 @@ Schemes Vacancies Tenders
 
 ### X
 
-*   > [pic.twitter.com/uxVFWERChP](https://t.co/uxVFWERChP)
-> 
-> — MORTHINDIA (@MORTHIndia) [August 12, 2016](https://twitter.com/MORTHIndia/status/763962803937869824?ref_src=twsrc%5Etfw)
+*    
 
 ### YouTube
 
@@ -191,7 +191,7 @@ This Website belongs to Ministry of Road Transport and Highways, Government of I
 
 [![Image 34: myGov](http://morth.gov.in/assets/images/mygovmerisarkar.webp)](https://www.mygov.in/)[![Image 35: National Portal Of India](http://morth.gov.in/assets/images/indiaportal.svg)](https://www.india.gov.in/)
 
-Last Updated On: Jul 20, 2026
+Last Updated On: Jul 21, 2026
 
 This website uses cookies to provide a better user experience.
 
