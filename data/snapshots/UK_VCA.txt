@@ -174,10 +174,12 @@ In addition to providing type approval technical and approval authority services
 
 Don’t include personal or financial information like your National Insurance number or credit card details.
 
-*   What were you doing? *  Required  
-*   What went wrong? *  Required  
+*   What were you doing?*  
+*   What went wrong?*  
 *   Please tick the box  
 *    
+
+Send
 
 ## Services & Information
 
