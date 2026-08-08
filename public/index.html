@@ -243,6 +243,10 @@
 
   /* PRINT STYLESHEET */
   @media print{
+    @page{size:A4 landscape;margin:10mm}
+    .tablescroll,.chartbox,.panel,main,section,div{overflow:visible !important;max-height:none !important}
+    table{width:100% !important;table-layout:auto;font-size:10.5px !important}
+    thead{display:table-header-group}tr,img,svg{break-inside:avoid;page-break-inside:avoid}
     :root{--paper:#fff;--surface:#fff}
     body{background:#fff}
     .bg-pattern,.tabbar,footer.composer-bar,.disclaimer,.site-foot,.attrib-badge,.export-pdf,.try-wrap,.contact,.hero-art,.subscribe,.date-filter,header .coverage{display:none !important}
@@ -428,12 +432,8 @@
 
       <!-- Subscribe -->
       <section class="card subscribe" aria-label="Subscribe to change alerts">
-        <h2>Get the change alerts</h2>
-        <p class="sub">Free Q&amp;A stays free. Change-monitoring is the upgrade — be the first to know when a rule moves.</p>
-        <div class="price-tag">
-          <span class="free">Early access</span>
-          <span class="note">— free while in beta, founding members keep preferred pricing</span>
-        </div>
+        <h2>Get notified of major changes</h2>
+        <p class="sub">Leave your email and I'll let you know when something material moves. No schedule, no spam — only when it matters.</p>
         <ul class="feat-list">
           <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> Daily checks across all monitored regulators</li>
           <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> An email the moment a source changes — with a link to the page</li>
@@ -448,7 +448,7 @@
             <label for="sf-email">Email</label>
             <input type="email" id="sf-email" name="email" autocomplete="email" required placeholder="you@example.com" />
           </div>
-          <button type="submit" class="btn">Subscribe to alerts</button>
+          <button type="submit" class="btn">Notify me</button>
           <p class="form-note">We use your email only to send change alerts — never sold. See our <a href="privacy.html">Privacy policy</a>.</p>
         </form>
         <div class="sub-ok" id="subOk" role="status">
