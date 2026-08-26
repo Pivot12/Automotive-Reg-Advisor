@@ -155,8 +155,8 @@ In addition to providing type approval technical and approval authority services
 
 ## Latest Publications
 
+*   [VCA: spending over £500, April to June 2026](https://www.vehicle-certification-agency.gov.uk/publication/vca-spending-over-500-april-to-june-2026/)
 *   [eCoC Portal – API Integration Guidance](https://www.vehicle-certification-agency.gov.uk/download-publication/26290/eCoC-API-Guide_v1.2/)
-*   [VCA Fees Consultation Response](https://www.vehicle-certification-agency.gov.uk/download-publication/25370/VCA%20Fees%20Consultation%20Response/)
 
  Latest Updates from VCA 
 *   [We are improving how users access VCA online services](https://www.vehicle-certification-agency.gov.uk/blog/we-are-improving-how-users-access-vca-online-services/)June 5, 2026
