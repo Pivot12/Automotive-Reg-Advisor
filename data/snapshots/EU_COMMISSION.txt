@@ -5,7 +5,17 @@ URL Source: https://single-market-economy.ec.europa.eu/sectors/automotive-indust
 Markdown Content:
 [Skip to main content](https://single-market-economy.ec.europa.eu/sectors/automotive-industry_en#main-content)
 
-[![Image 1: European Commission logo](https://single-market-economy.ec.europa.eu/themes/contrib/oe_theme/dist/ec/images/logo/logo-ec--mute.svg)](https://commission.europa.eu/index_en)
+This site uses cookies. Visit our [cookies policy page](https://commission.europa.eu/cookies-policy_en) or click the link in any footer for more information and to change your preferences.
+
+[Accept all cookies](https://single-market-economy.ec.europa.eu/sectors/automotive-industry_en#accept)[Accept only essential cookies](https://single-market-economy.ec.europa.eu/sectors/automotive-industry_en#refuse)
+
+![Image 1](https://webtools.europa.eu/images/flags/eu.svg)An official website of the European Union An official EU website How do you know?
+
+All official European Union website addresses are in the **europa.eu** domain.
+
+[See all EU institutions and bodies](https://european-union.europa.eu/institutions-law-budget/institutions-and-bodies/search-all-eu-institutions-and-bodies_en)
+
+[![Image 2: European Commission logo](https://single-market-economy.ec.europa.eu/themes/contrib/oe_theme/dist/ec/images/logo/logo-ec--mute.svg)](https://commission.europa.eu/index_en)
 
 [en](https://single-market-economy.ec.europa.eu/sectors/automotive-industry_en)
 
@@ -219,7 +229,7 @@ Directorate-General for Internal Market, Industry, Entrepreneurship and SMEs
 *   [Jobs at the European Commission](https://commission.europa.eu/jobs-european-commission_en)
 *   [Vacancies at this department](https://single-market-economy.ec.europa.eu/vacancies_en)
 
-[![Image 2: European Commission logo](https://single-market-economy.ec.europa.eu/themes/contrib/oe_theme/dist/ec/images/logo/negative/logo-ec--en.svg)](https://commission.europa.eu/index_en)
+[![Image 3: European Commission logo](https://single-market-economy.ec.europa.eu/themes/contrib/oe_theme/dist/ec/images/logo/negative/logo-ec--en.svg)](https://commission.europa.eu/index_en)
 
 Follow the European Commission
 
@@ -238,3 +248,21 @@ Follow the European Commission
 *   [Privacy policy](https://commission.europa.eu/privacy-policy-websites-managed-european-commission_en)
 *   [Legal notice](https://commission.europa.eu/legal-notice_en)
 *   [Accessibility](https://single-market-economy.ec.europa.eu/accessibility-statement_en)
+
+Search
+
+Search Toggle the filter display
+
+Close
+
+**Type of search results**All News Documents 
+
+**Date** 
+
+**Language** 
+
+**Search on:**
+
+This site Internal Market, Industry, Entrepreneurship and SMEs 
+
+All main Commission sites

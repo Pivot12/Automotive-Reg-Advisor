@@ -237,7 +237,7 @@ This Website belongs to Ministry of Road Transport and Highways, Government of I
 
 [![Image 41: MyGov - Meri Sarkar](http://morth.gov.in/assets/images/mygovmerisarkar.webp)](https://www.mygov.in/)[![Image 42: National Portal Of India](http://morth.gov.in/assets/images/indiaportal.svg)](https://www.india.gov.in/)
 
-Last Updated On: Nov 1, 2026
+Last Updated On: Nov 2, 2026
 
 This website uses cookies to provide a better user experience.
 
