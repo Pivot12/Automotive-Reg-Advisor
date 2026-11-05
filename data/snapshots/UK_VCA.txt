@@ -155,8 +155,8 @@ In addition to providing type approval technical and approval authority services
 
 ## Latest Publications
 
-*   [VCA: spending over £500, April to June 2026](https://www.vehicle-certification-agency.gov.uk/publication/vca-spending-over-500-april-to-june-2026/)
-*   [eCoC Portal – API Integration Guidance](https://www.vehicle-certification-agency.gov.uk/download-publication/26290/eCoC-API-Guide_v1.2/)
+*   [Annual Report and Accounts 2025-2026 (Large 20pt Text Version)](https://www.vehicle-certification-agency.gov.uk/download-publication/28230/Annual%20Report%20and%20Accounts%202025%20to%202026%20-%2020pt/)
+*   [Annual Report and Accounts 2025-26](https://www.vehicle-certification-agency.gov.uk/download-publication/28229/Annual%20Report%20and%20Accounts%202025%20to%202026%20-%20web/)
 
  Latest Updates from VCA 
 *   [GB Type Approval for O Category Vehicles](https://www.vehicle-certification-agency.gov.uk/blog/gb-type-approval-for-o-category-vehicles/)September 28, 2026
