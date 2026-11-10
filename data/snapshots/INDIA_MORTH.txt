@@ -2,9 +2,9 @@ Title: Ministry of Road Transport & Highways, Government Of India
 
 URL Source: https://morth.nic.in/
 
-Final URL: https://morth.gov.in/#/
+Final URL: https://morth.gov.in/
 
-Published Time: Wed, 06 May 2026 22:50:43 GMT
+Published Time: Fri, 16 Oct 2026 12:53:27 GMT
 
 Markdown Content:
 ![Image 1: Ministry of Road Transport and Highways, Government of India](https://morth.gov.in/assets/images/govtlogo.svg)[Government of India # Ministry of Road Transport and Highways](https://morth.gov.in/#/ "MoRTH")
@@ -101,75 +101,6 @@ Default Cursor
 *    Media  
 *    Connect  
 
-![Image 14: Loading...](https://morth.gov.in/assets/images/loading2.svg)
-
-![Image 15: Pause slider](https://morth.gov.in/assets/images/pause2.png)![Image 16: Play slider](https://morth.gov.in/assets/images/play1.png)
-
-## Announcements
-
-![Image 17: Announcements](https://morth.gov.in/assets/images/announcement.png)
-
-![Image 18: Prime Minister of India](https://morth.gov.in/backend/undefined)
-
-[![Image 19: View Event](https://morth.gov.in/assets/images/externalLink.svg) View Event](https://morth.gov.in/)
-
-## [![Image 20: About Us](https://morth.gov.in/assets/images/ab.png) About Us](https://morth.gov.in/ministry)
-
-[object Object]
-
-![Image 21: Digital Personal Data](https://morth.gov.in/)
-
-![Image 22: Digital Personal Data](https://morth.gov.in/)
-
-![Image 23: Digital Personal Data](https://morth.gov.in/)
-
-## ![Image 24: Key Offerings Icon](https://morth.gov.in/assets/images/keyOfferings.svg) Key Offerings
-
-Schemes Vacancies Tenders
-
-*   No schemes available
-
-*   No vacancies available
-
-*   No tenders available
-
-[View More](https://morth.gov.in/#/offerings/schemes-and-services)
-
-## ![Image 25: What's New Icon](https://morth.gov.in/assets/images/whatsnew.svg) What's New
-
-[View More](https://morth.gov.in/#/whats-new)
-
-## ![Image 26: Recent Documents](https://morth.gov.in/assets/images/recentDocument.svg) Recent Documents
-
-[View more](https://morth.gov.in/#/documents/reports)
-
-## ![Image 27: Explore User Personas](https://morth.gov.in/assets/images/userpersonas.svg) Explore User Personas
-
-## ![Image 28: Important Links](https://morth.gov.in/assets/images/importantsLinks.svg) Important Links
-
-## ![Image 29: Media Gallery](https://morth.gov.in/assets/images/image.svg) In Social Media
-
-### X
-
-*   > [pic.twitter.com/uxVFWERChP](https://t.co/uxVFWERChP)
-> 
-> — MORTHINDIA (@MORTHIndia) [August 12, 2016](https://twitter.com/MORTHIndia/status/763962803937869824?ref_src=twsrc%5Etfw)
-
-### YouTube
-
-[Video 1](https://www.youtube.com/watch?v=j9ECD16W_Yk)  
-[Video 2](https://www.youtube.com/watch?v=2rGZz_TbxuE)  
-
-### Facebook
-
-### Instagram
-
-![Image 30: Digital Personal Data](https://morth.gov.in/)
-
-[Video 3](https://morth.gov.in/)
-
-Previous Next
-
 ## Useful Links
 
 *   [Archives](https://morth.gov.in/#/archives)
@@ -184,14 +115,14 @@ This Website belongs to Ministry of Road Transport and Highways, Government of I
 
 ## Subscribe for Updates
 
-*   [![Image 31: X (formerly Twitter)](https://morth.gov.in/assets/images/X.svg)](https://x.com/MORTHIndia)
-*   [![Image 32: YouTube](https://morth.gov.in/assets/images/YouTube.svg)](https://www.youtube.com/channel/UCTOhBdWjB0FOH1MNa5mEBJg)
-*   [![Image 33: Facebook](https://morth.gov.in/assets/images/Facebook.svg)](https://www.facebook.com/MoRTHIndia/)
-*   [![Image 34: Instagram](https://morth.gov.in/assets/images/Instagram.svg)](https://www.instagram.com/morthindia/)
+*   [![Image 14: X (formerly Twitter)](https://morth.gov.in/assets/images/X.svg)](https://x.com/MORTHIndia)
+*   [![Image 15: YouTube](https://morth.gov.in/assets/images/YouTube.svg)](https://www.youtube.com/channel/UCTOhBdWjB0FOH1MNa5mEBJg)
+*   [![Image 16: Facebook](https://morth.gov.in/assets/images/Facebook.svg)](https://www.facebook.com/MoRTHIndia/)
+*   [![Image 17: Instagram](https://morth.gov.in/assets/images/Instagram.svg)](https://www.instagram.com/morthindia/)
 
-[![Image 35: MyGov - Meri Sarkar](https://morth.gov.in/assets/images/mygovmerisarkar.webp)](https://www.mygov.in/)[![Image 36: National Portal Of India](https://morth.gov.in/assets/images/indiaportal.svg)](https://www.india.gov.in/)
+[![Image 18: MyGov - Meri Sarkar](https://morth.gov.in/assets/images/mygovmerisarkar.webp)](https://www.mygov.in/)[![Image 19: National Portal Of India](https://morth.gov.in/assets/images/indiaportal.svg)](https://www.india.gov.in/)
 
-Last Updated On: Nov 9, 2026
+Last Updated On: Nov 10, 2026
 
 This website uses cookies to provide a better user experience.
 
