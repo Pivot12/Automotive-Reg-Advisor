@@ -4,8 +4,6 @@ URL Source: https://morth.nic.in/
 
 Final URL: https://morth.gov.in/#/
 
-Published Time: Fri, 16 Oct 2026 12:53:27 GMT
-
 Markdown Content:
 ![Image 1: Ministry of Road Transport and Highways, Government of India](https://morth.gov.in/assets/images/govtlogo.svg)[Government of India # Ministry of Road Transport and Highways](https://morth.gov.in/#/ "MoRTH")
 
@@ -191,7 +189,7 @@ This Website belongs to Ministry of Road Transport and Highways, Government of I
 
 [![Image 35: MyGov - Meri Sarkar](https://morth.gov.in/assets/images/mygovmerisarkar.webp)](https://www.mygov.in/)[![Image 36: National Portal Of India](https://morth.gov.in/assets/images/indiaportal.svg)](https://www.india.gov.in/)
 
-Last Updated On: Nov 16, 2026
+Last Updated On: Nov 17, 2026
 
 This website uses cookies to provide a better user experience.
 
