@@ -178,23 +178,11 @@ Arbitral Award
 *   [Act and Policies](https://morth.gov.in/)
 Manner of Deposition Rules, 2019
 
-*   [Gazettes Notifications](https://morth.gov.in/)
-NH Entrustment
-
 [View more](https://morth.gov.in/#/documents/reports)
 
 ## ![Image 34: Explore User Personas](https://morth.gov.in/assets/images/userpersonas.svg) Explore User Personas
 
-[![Image 35: Persona: for-business-owner](https://morth.gov.in/backend/documents/uploaded/1757657298.png)](https://morth.gov.in/#/persona/details/for-business-owner)
-for-business-owner
-
-[![Image 36: Persona: media](https://morth.gov.in/backend/documents/uploaded/1754386783.png)](https://morth.gov.in/#/persona/details/media)
-media
-
-[![Image 37: Persona: for-researcher](https://morth.gov.in/backend/documents/uploaded/1754386720.png)](https://morth.gov.in/#/persona/details/for-researcher)
-for-researcher
-
-## ![Image 38: Important Links](https://morth.gov.in/assets/images/importantsLinks.svg) Important Links
+## ![Image 35: Important Links](https://morth.gov.in/assets/images/importantsLinks.svg) Important Links
 
 *   [Bhoomi Rashi Portal](https://bhoomirashi.gov.in/auth/revamp/login1.cshtml)
 *   [mParivahan Portal](https://mparivahan.parivahan.gov.in/#/)
@@ -202,11 +190,14 @@ for-researcher
 *   [Datalake](https://datalakem.nhai.gov.in/MORTH/)
 *   [Technical Glossary](https://online.anyflip.com/mctms/ncnj/mobile/index.html)
 
-## ![Image 39: Media Gallery](https://morth.gov.in/assets/images/image.svg) In Social Media
+## ![Image 36: Media Gallery](https://morth.gov.in/assets/images/image.svg) In Social Media
 
 ### X
 
 *    
+> [pic.twitter.com/uxVFWERChP](https://t.co/uxVFWERChP)
+> 
+> — MORTHINDIA (@MORTHIndia) [August 12, 2016](https://twitter.com/MORTHIndia/status/763962803937869824?ref_src=twsrc%5Etfw)
 
 ### YouTube
 
@@ -217,67 +208,9 @@ for-researcher
 
 ### Instagram
 
-![Image 40: Inviting feedback on the Digital Personal Data Protection Rules 2025 - MeitY and MyGov](https://ccps.digifootprint.gov.in/static//uploads/2025/04/27e9570baf2f30329e34e527216687d8.png)
+![Image 37: Digital Personal Data](https://morth.gov.in/)
 
-[Video 3](https://playhls.media.nic.in/igot_vod/MyGov/NOV24/video/studentmustknow.mp4)
-
-[![Image 41: MoRTH Road Safety Scheme 2025-26: financial assistance for road safety advocacy and awards. Apply at rsa.morth.gov.in](https://morth.gov.in/backend/uploads/persona_pages/1763631323_AUo3sREWos.jpeg)](https://morth.gov.in/backend/public/old_files/Opening-of-Portal-in-FY-2025-26.pdf)
-
-[![Image 42: From the Desk of Director General (Road Development) & SS](https://morth.gov.in/backend/images/uploaded/1755154335.jpg)](https://morth.nic.in/en/desk-director-general-road-development-ss)
-
-[![Image 43: DigiLocker](https://morth.gov.in/backend/images/uploaded/1755154869.jpg)](https://www.digilocker.gov.in/)
-
-[![Image 44: National Highways Authority of India (NHAI)](https://morth.gov.in/backend/images/uploaded/1755155033.jpg)](https://nhai.gov.in/#/)
-
-[![Image 45: RSA - Road Safety Advocacy Scheme](https://morth.gov.in/backend/images/uploaded/1755155143.jpg)](https://rsa.morth.gov.in/auth/users/login.cshtml)
-
-[![Image 46: Exempted FASTag Application](https://morth.gov.in/backend/images/uploaded/1755167370.png)](https://exemptedfastag.nhai.org/exemptedfastag/)
-
-[![Image 47: Bhoomi Rashi](https://morth.gov.in/backend/images/uploaded/1755161710.jpg)](https://bhoomirashi.gov.in/auth/revamp/login1.cshtml)
-
-[![Image 48: Parivahan Sewa](https://morth.gov.in/backend/images/uploaded/1755163666.jpg)](https://parivahan.gov.in/parivahan/)
-
-[![Image 49: OWC/ODC permission portal](https://morth.gov.in/backend/images/uploaded/1755163913.jpg)](https://morth-owc.nic.in/auth/users/index.asp)
-
-[![Image 50: BIMS](https://morth.gov.in/backend/images/uploaded/1755164072.jpg)](https://bims.gov.in/)
-
-[![Image 51: rajmargpravesh.morth.gov.in](https://morth.gov.in/backend/uploads/persona_pages/1772098481_iBYbuuOxj1.jpeg)](https://rajmargpravesh.morth.gov.in/)
-
-[![Image 52: Road Safety - Parliamentary Committee on Road Accident](https://morth.gov.in/backend/images/uploaded/1755164420.jpg)](https://morth-roadsafety.nic.in/edisha/index.aspx)
-
-[![Image 53: Annual Awards for Excellence in National Highways Sector](https://morth.gov.in/backend/images/uploaded/1755165050.jpg)](http://bhoomirashi.gov.in/awards/)
-
-[![Image 54: Access Permission (Fuel Stations, Private Properties & Others)](https://morth.gov.in/backend/images/uploaded/1755165312.jpg)](https://rajmargpravesh.morth.gov.in/)
-
-[![Image 55: INFRACON - Ministry of Road Transport & Highways](https://morth.gov.in/backend/images/uploaded/1755165464.jpg)](https://infracon.nic.in/index.asp)
-
-[![Image 56: INAM PRO - Platform for Infrastructure and Materials Providers](https://morth.gov.in/backend/images/uploaded/1755165582.png)](https://inampro.nic.in/)
-
-[![Image 57: VIP References - Ministry of Road Transport & Highways](https://morth.gov.in/backend/images/uploaded/1755165723.jpg)](https://www.morthedisha.gov.in/omniapp/pages/login/loginapp.jsf)
-
-[![Image 58: Digital India Awards 2020](https://morth.gov.in/backend/images/uploaded/1755165845.jpg)](https://digitalindiaawards.india.gov.in/)
-
-[![Image 59: Portal for Public Grievances](https://morth.gov.in/backend/images/uploaded/1755165939.jpg)](https://pgportal.gov.in/)
-
-[![Image 60: Open Government Data Portal - data.gov.in](https://morth.gov.in/backend/images/uploaded/1755166030.jpg)](https://www.data.gov.in/)
-
-[![Image 61: National Government Services Portal](https://morth.gov.in/backend/images/uploaded/1755166239.jpg)](https://services.india.gov.in/)
-
-[![Image 62: Good Samaritans Portal - Every Life Is Important](https://morth.gov.in/backend/images/uploaded/1755166329.png)](http://gsl.goodsamaritans.in/home/)
-
-[![Image 63: GeM - Government e Marketplace](https://morth.gov.in/backend/images/uploaded/1755166431.png)](https://gem.gov.in/)
-
-[![Image 64: India Code](https://morth.gov.in/backend/images/uploaded/1762159812.png)](https://www.indiacode.nic.in/)
-
-[![Image 65: Invest India - National Investment Promotion and Facilitation Agency](https://morth.gov.in/backend/images/uploaded/1755166625.png)](https://indiainvestmentgrid.gov.in/)
-
-[![Image 66: Swachh Bharat - Ek Kadam Swachhta Ki Or](https://morth.gov.in/backend/images/uploaded/1755166808.jpg)](https://swachhbharat.mygov.in/)
-
-[![Image 67: MoRTH Standard Data Book](https://morth.gov.in/backend/images/uploaded/1755166908.jpg)](http://sdb.morth.gov.in/Userpages/Login.aspx)
-
-[![Image 68: National Single Window System - access approvals of Central Ministries and States with a single user ID](https://morth.gov.in/backend/images/uploaded/1755166996.jpg)](https://www.nsws.gov.in/)
-
-[![Image 69: NHIDCL - Building Infrastructure, Building the Nation](https://morth.gov.in/backend/images/uploaded/1755167217.jpg)](https://nhidcl.com/)
+[Video 3](https://morth.gov.in/)
 
 Previous Next
 
@@ -295,14 +228,14 @@ This Website belongs to Ministry of Road Transport and Highways, Government of I
 
 ## Subscribe for Updates
 
-*   [![Image 70: X (formerly Twitter)](https://morth.gov.in/assets/images/X.svg)](https://x.com/MORTHIndia)
-*   [![Image 71: YouTube](https://morth.gov.in/assets/images/YouTube.svg)](https://www.youtube.com/channel/UCTOhBdWjB0FOH1MNa5mEBJg)
-*   [![Image 72: Facebook](https://morth.gov.in/assets/images/Facebook.svg)](https://www.facebook.com/MoRTHIndia/)
-*   [![Image 73: Instagram](https://morth.gov.in/assets/images/Instagram.svg)](https://www.instagram.com/morthindia/)
+*   [![Image 38: X (formerly Twitter)](https://morth.gov.in/assets/images/X.svg)](https://x.com/MORTHIndia)
+*   [![Image 39: YouTube](https://morth.gov.in/assets/images/YouTube.svg)](https://www.youtube.com/channel/UCTOhBdWjB0FOH1MNa5mEBJg)
+*   [![Image 40: Facebook](https://morth.gov.in/assets/images/Facebook.svg)](https://www.facebook.com/MoRTHIndia/)
+*   [![Image 41: Instagram](https://morth.gov.in/assets/images/Instagram.svg)](https://www.instagram.com/morthindia/)
 
-[![Image 74: MyGov - Meri Sarkar](https://morth.gov.in/assets/images/mygovmerisarkar.webp)](https://www.mygov.in/)[![Image 75: National Portal Of India](https://morth.gov.in/assets/images/indiaportal.svg)](https://www.india.gov.in/)
+[![Image 42: MyGov - Meri Sarkar](https://morth.gov.in/assets/images/mygovmerisarkar.webp)](https://www.mygov.in/)[![Image 43: National Portal Of India](https://morth.gov.in/assets/images/indiaportal.svg)](https://www.india.gov.in/)
 
-Last Updated On: Nov 19, 2026
+Last Updated On: Nov 20, 2026
 
 This website uses cookies to provide a better user experience.
 
